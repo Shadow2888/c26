@@ -1,7 +1,7 @@
 class BOB{
     constructor(x, y, width, height, angle) {
         var options = {
-                        'frictionAir':0.01,
+           'frictionAir':0.01,
             'density':1.0
         }
         this.body = Bodies.rectangle(x, y, width, height, options);
